@@ -8,14 +8,16 @@ body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
   min-height: 4000px;
+
 }
 
 .bogo{
   background-image: url(img/brown-papyrus-paper.jpg);
   background-size: cover;
   background-position: center;
- filter: opacity(90%);
- 
+ filter: opacity(95%);
+ width: fit-content;
+ height: fit-content;
 margin: 50px;
 padding: 30px;
 }
@@ -90,10 +92,10 @@ padding: 30px;
 }
 
 .home {
-  background-image: url(img/4371933.jpg);
+  /* background-image: url(img/4371933.jpg); */
   background-size: cover;
   background-position: center;
-
+  background-color: #533806;
   z-index: -1;
   min-height: 100vh;
   margin-top: -6rem;
@@ -160,9 +162,10 @@ padding: 30px;
   color: #444;
   padding-top: 10rem;
   padding-bottom: 8rem;
-  background-image: url(img/iru.jpg);
+  /* background-image: url(img/iru.jpg); */
   background-size: cover;
   background-position: center;
+  background-color: #533806;
   z-index: -1;
 }
 
@@ -203,9 +206,9 @@ padding: 30px;
 .gifts {
   padding-top: 10rem;
   padding-bottom: 8rem;
-  background-image: url(img/iru.jpg);
-  background-size: cover;
-  background-position: center;
+  /* background-image: url(img/iru.jpg); */
+  background-color: #533806;
+
   z-index: -1;
 }
 
@@ -215,7 +218,7 @@ padding: 30px;
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
- background-color: rgba(252, 219, 128, 0.3) !important;
+  background-color: rgba(252, 219, 128, 0.3) !important;
   letter-spacing: 1px;
   display: block;
   margin-bottom: 1rem;
@@ -327,7 +330,7 @@ padding: 30px;
 }
 
 .gallery {
-  background-color: #f5f5f5;
+  background-color: #533806;
 }
 
 .rsvp {
@@ -472,8 +475,7 @@ footer li {
   }
 
   .mynavbar .nav-link {
-    font-size: 2rem;
-    text-align: center;
+    display: none;
   }
 
   .sticky-top {
