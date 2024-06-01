@@ -3,7 +3,9 @@
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
@@ -111,7 +113,8 @@ padding: 30px;
 .gifts h2 {
   color: var(--pink )!important;
   font-family: 'Sacramento';
-  font-size: 5rem;
+  font-size: 4rem;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -122,12 +125,12 @@ padding: 30px;
 }
 
 .home p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #666;
 }
 
 .home .couple {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .home .couple h3 {
@@ -170,11 +173,11 @@ padding: 30px;
 }
 
 .info .alamat {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .info .description {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -467,7 +470,7 @@ footer li {
 /* tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 65%;
+    font-size: 95%;
   }
 
   .simply-countdown > .simply-section {
@@ -492,7 +495,11 @@ footer li {
 /* mobile phone */
 @media (max-width: 576px) {
   html {
-    font-size: 75%;
+    font-size: 65%;
+  }
+  .bogo{
+    margin: 0;
+    
   }
 
   .simply-countdown > .simply-section {
@@ -518,3 +525,4 @@ footer li {
     top: 31px;
   }
 }
+
