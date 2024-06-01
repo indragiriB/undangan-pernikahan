@@ -16,8 +16,8 @@ body {
   background-size: cover;
   background-position: center;
  filter: opacity(95%);
- width: fit-content;
- height: fit-content;
+
+
 margin: 50px;
 padding: 30px;
 }
@@ -92,10 +92,10 @@ padding: 30px;
 }
 
 .home {
-  /* background-image: url(img/4371933.jpg); */
+  background-image: url(img/4371933.jpg);
   background-size: cover;
   background-position: center;
-  background-color: #533806;
+
   z-index: -1;
   min-height: 100vh;
   margin-top: -6rem;
@@ -162,10 +162,10 @@ padding: 30px;
   color: #444;
   padding-top: 10rem;
   padding-bottom: 8rem;
-  /* background-image: url(img/iru.jpg); */
+  background-image: url(img/iru.jpg);
   background-size: cover;
   background-position: center;
-  background-color: #533806;
+  /* background-color: #533806; */
   z-index: -1;
 }
 
@@ -206,9 +206,10 @@ padding: 30px;
 .gifts {
   padding-top: 10rem;
   padding-bottom: 8rem;
-  /* background-image: url(img/iru.jpg); */
-  background-color: #533806;
+  background-image: url(img/iru.jpg);
+background-position: center;
 
+background-size: cover;
   z-index: -1;
 }
 
@@ -422,11 +423,11 @@ footer li {
 /* laptop */
 @media (max-width: 992px) {
   html {
-    font-size: 75%;
+    font-size: 95%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 70px;
+    padding: 40px;
   }
 
   .home .heart {
@@ -466,7 +467,7 @@ footer li {
 /* tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 65%;
+    font-size: 95%;
   }
 
   .simply-countdown > .simply-section {
@@ -491,11 +492,11 @@ footer li {
 /* mobile phone */
 @media (max-width: 576px) {
   html {
-    font-size: 60%;
+    font-size: 75%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 30px;
     margin: 3px;
   }
 
