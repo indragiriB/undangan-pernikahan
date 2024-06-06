@@ -52,6 +52,7 @@ padding: 30px;
 .hero h1 {
   font-family: 'Sacramento', cursive;
   font-size: 6rem;
+  margin-bottom: 40svh;
 }
 
 .hero h4 {
